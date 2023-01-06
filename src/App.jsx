@@ -26,7 +26,7 @@ function App() {
   )
 
   const componentsError =<Error  
-  imgError={'/assets/images/bar.png'}
+  imgError={'/public/bar.png'}
   textError={'Ups! No hay coincidencias'}
   />
 
