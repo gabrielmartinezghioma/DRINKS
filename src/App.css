@@ -158,11 +158,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70vh
+    height: 80vh
 }
 
 .div__img--error {
-    width: 35%;
+    width: 30%;
 }
 
 .div__h3--error {
