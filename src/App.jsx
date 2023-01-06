@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Cards from './assets/components/Cards'
+import Error from './assets/components/Error'
 import FormSerch from './assets/components/FormSerch'
 import setGetDataApi from './assets/hooks/setGetDataApi'
 
@@ -10,8 +11,8 @@ function App() {
   const formComponents =
     <FormSerch
       setHook={setDaraSerch}
-      textInput={'A BUSCAR'}
-      textButton={'SERCH'}
+      textInput={'Search drinks'}
+      textButton={'Search'}
       dataId={'idList'}
     />
 
@@ -24,10 +25,26 @@ function App() {
     />
   )
 
+  const componentsError =<Error  
+  imgError={'/src/assets/images/bar.png'}
+  textError={'Ups! No hay coincidencias'}
+  />
+
+
   return (
     <div className="App">
       {formComponents}
-      {componentsCard}
+
+      <div className='App__div'>
+        {
+          isTry === true
+            ?
+            componentsCard
+            :
+            componentsError
+        }
+      </div>
+
     </div>
   )
 }

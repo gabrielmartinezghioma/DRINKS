@@ -2,13 +2,13 @@ import React from 'react';
 
 const Cards = ({data}) => {
     return (
-        <div>
-            <picture>
-                <img src={`${data.strDrinkThumb}`} alt="" />
+        <div className='div--cards'>
+            <picture className='div__picture'>
+                <img  className='div__picture--img' src={`${data.strDrinkThumb}`} alt="" />
             </picture>
-            <div>
-                <h3>{data.strDrink}</h3>
-                <p>{data.strInstructions}</p>
+            <div className='div__div--textCards'>
+                <h3 className='div__div--h3'>{data.strDrink}</h3>
+                <p className='div__div--p'>{data.strInstructions}</p>
             </div>            
         </div>
     );

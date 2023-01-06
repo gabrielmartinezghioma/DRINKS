@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormSerch = ({ setHook, textInput, textButton,dataId }) => {
+const FormSerch = ({ setHook, textInput, textButton}) => {
 
     const serchTerm = (e) => {
         e.preventDefault()
@@ -8,9 +8,9 @@ const FormSerch = ({ setHook, textInput, textButton,dataId }) => {
     }
 
     return (
-            <form onSubmit={(e) => serchTerm(e)}>
-                <input type="text" list={dataId} placeholder={`${textInput}`} />
-                <button type='submit'>{textButton}</button>
+            <form className='form' onSubmit={(e) => serchTerm(e)}>
+                <input className='form__input' type="text" placeholder={`${textInput}`} />
+                <button className='form__button' type='submit'>{textButton}</button>
             </form>   
     );
 };
