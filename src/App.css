@@ -140,11 +140,11 @@
     text-align: justify;
     line-height: 1.2rem;
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 50%;
 }
 
 .div--cards:hover .div__div--textCards {
-    top: 00%;
+    top: 40%;
     transition: all 1s;
     color: var(--color-yellow);
 }
