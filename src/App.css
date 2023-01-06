@@ -114,6 +114,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     overflow-y: auto;
+    transition: all 1s;
 }
 
 .div__div--textCards::-webkit-scrollbar {
