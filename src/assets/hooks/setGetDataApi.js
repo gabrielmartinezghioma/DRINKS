@@ -18,8 +18,8 @@ function setGetDataApi(url, hookParameter) {
                 setisTry(true);
             }
         } catch (error) {
-            setisTry(false);
             setData([]);
+            setisTry(false);
         }
     }
 
