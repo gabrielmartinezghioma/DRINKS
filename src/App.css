@@ -106,8 +106,8 @@
     color: var(--color-yellow);
     height: 100%;
     width: 100%;
-    background: rgb(27, 31, 31);
-    background: linear-gradient(0deg, rgba(27, 31, 31, 0.8869922969187675) 74%, rgba(32, 41, 41, 0) 100%);
+    background: rgb(27,31,31);
+    background: linear-gradient(0deg, rgba(27,31,31,0.8715861344537815) 67%, rgba(27,31,31,0.8491771708683473) 70%, rgba(27,31,31,0) 100%);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -119,10 +119,10 @@
 
 .div__div--textCards::-webkit-scrollbar {
     width: 0px;
-  }
+}
 
 .div--cards:hover .div__picture {
-    filter: blur(2px);
+    filter: blur(10px);
     transform: translateY(-20px);
     transition: all 0.5s;
 }
