@@ -28,10 +28,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-grey);
+    background-color: var(--color-white);
     border-radius: 1rem;
-    box-shadow: 12px -12px 24px #d3d3d3,
-        -12px 12px 24px #f3f3f3;
+    box-shadow: var(--shadow-elevation-medium);
     z-index: 1;
 }
 
@@ -45,7 +44,7 @@
     font-size: 1.2rem;
     background-color: inherit;
     border-radius: 1rem 0 0 1rem;
-    color: var(--color-blue);
+    color: var(--color-red);
 }
 
 .form__button {
@@ -58,12 +57,11 @@
     background: inherit;
     border-radius: 1rem 1rem 1rem 1rem;
     cursor: pointer;
-    color: var(--color-blue);
+
 }
 
 .form__button:active {
-    background-color: var(--color-blue);
-    color: var(--color-yellow);
+    background-color: var(--color-lightBlue);
 }
 
 .div--cards {
@@ -77,11 +75,10 @@
     height: 400px;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 12px -12px 24px #d3d3d3,
-        -12px 12px 24px #f3f3f3;
+    box-shadow: var(--shadow-elevation-high);
     margin: 20px;
     position: relative;
-    color: var(--color-grey);
+    color: var(--color-white);
     ;
 }
 
@@ -103,11 +100,11 @@
 .div__div--textCards {
     position: absolute;
     top: 80%;
-    color: var(--color-yellow);
+    color: var(--color-white);
     height: 100%;
     width: 100%;
-    background: rgb(27,31,31);
-    background: linear-gradient(0deg, rgba(27,31,31,0.8715861344537815) 67%, rgba(27,31,31,0.8491771708683473) 70%, rgba(27,31,31,0) 100%);
+    background: rgb(27, 31, 31);
+    background: linear-gradient(0deg, rgba(27, 31, 31, 0.8715861344537815) 67%, rgba(27, 31, 31, 0.8491771708683473) 70%, rgba(27, 31, 31, 0) 100%);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -122,17 +119,18 @@
 }
 
 .div--cards:hover .div__picture {
-    filter: blur(10px);
+    filter: blur(4px);
     transform: translateY(-20px);
     transition: all 0.5s;
 }
 
 .div__div--h3 {
     margin: 20px 0 40px 20px;
-    padding: 10px;
+    padding: 5px;
     align-self: flex-start;
-    border-radius: 1rem;
-    background-color: var(--color-blue);
+    border-radius: 0.5rem;
+    background-color: var(--color-white);
+    color: var(--color-red);
 }
 
 .div__div--p {
@@ -146,7 +144,6 @@
 .div--cards:hover .div__div--textCards {
     top: 40%;
     transition: all 1s;
-    color: var(--color-yellow);
 }
 
 .div--cards:hover .div__div--h3 {
