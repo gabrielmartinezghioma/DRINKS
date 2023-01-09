@@ -4,7 +4,7 @@ const Cards = ({data}) => {
     return (
         <div className='div--cards'>
             <picture className='div__picture'>
-                <img  className='div__picture--img' src={`${data.strDrinkThumb}`} alt="" />
+                <img  className='div__picture--img' src={`${data.strDrinkThumb}`} alt={`${data.strDrink}`} />
             </picture>
             <div className='div__div--textCards'>
                 <h3 className='div__div--h3'>{data.strDrink}</h3>

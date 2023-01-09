@@ -110,13 +110,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow-y: auto;
+    overflow-y: scroll;
     transition: all 1s;
 }
 
 .div__div--textCards::-webkit-scrollbar {
     width: 0px;
 }
+
 
 .div--cards:hover .div__picture {
     filter: blur(4px);
@@ -165,7 +166,7 @@
 
 .div__h3--error {
     margin: 2%;
-    color: var(--color-blue);
+    color: black;
     font-size: 1.5rem;
     text-align: center;
 }
