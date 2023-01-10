@@ -1,8 +1,9 @@
 :root{
-    --color-red:#EB455F;
-    --color-white:#FCFFE7;
-    --color-lightBlue:#BAD7E9;
-    --color-blue:#2B3467;
+    --color-one:#FAF7F0;
+    --color-two:#CDFCF6;
+    --color-three:#BCCEF8;
+    --color-four:#98A8F8;
+    --color-five:black;
 
     --shadow-color: 0deg 0% 0%;
     --shadow-elevation-low:
@@ -32,7 +33,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--color-red);
+    background-color: var(--color-one);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -42,7 +43,7 @@ h1,h2,h3,h4,h5,h6,p,img{
 }
 
 p::selection{
-    background-color: rgba(255, 0, 0, 0);;
+    background-color: transparent;;
     color: var(--color-red);
 }
 
