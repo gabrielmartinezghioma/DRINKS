@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 10vh 0;
+    margin: 10vh 0  5vh 0;
 }
 
 .form {
@@ -117,11 +117,11 @@
     width: 7px;
 }
 
-.div--cards:hover .div__div--textCards::-webkit-scrollbar-track {
+.div__div--textCards:hover::-webkit-scrollbar-track {
     border: 1px solid transparent;
 }
 
-.div--cards:hover .div__div--textCards::-webkit-scrollbar-thumb {
+.div__div--textCards:hover::-webkit-scrollbar-thumb {
     background-color: var( --color-lightBlue);
     border-radius: 7px;
 }
@@ -133,7 +133,6 @@
 .div__div--textCards::-webkit-scrollbar-corner {
     background-color: transparent;
 }
-
 
 .div--cards:hover .div__picture {
     filter: blur(4px);
