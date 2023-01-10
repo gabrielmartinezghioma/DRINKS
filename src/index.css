@@ -1,9 +1,8 @@
 :root{
     --color-one:#FAF7F0;
-    --color-two:#CDFCF6;
+    --color-two:black;
     --color-three:#BCCEF8;
     --color-four:#98A8F8;
-    --color-five:black;
 
     --shadow-color: 0deg 0% 0%;
     --shadow-elevation-low:
