@@ -79,6 +79,12 @@
     margin: 20px;
     position: relative;
     color: var(--color-one);
+    transition: all 1s;
+}
+
+.div--cards:hover{
+    transform: translateY(-10px);
+    transition: all 1s;
 }
 
 .div__picture {
