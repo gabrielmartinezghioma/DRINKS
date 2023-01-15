@@ -2,7 +2,7 @@
 
   Me complace presentarles este proyecto. Se trata de una herramienta para los amantes de los cócteles y bebidas internacionales. Utiliza la API pública de CocktailDB para recopilar y presentar una amplia variedad de opciones. En este proyecto se han utilizado las últimas tecnologías como React, específicamente useState, useEffect y custom hooks para manejar el estado y efectos de la aplicación. Además, se realizaron peticiones GET para obtener los datos de la API.
 
-  Con nuestra página de inicio, podrán descubrir los primeros 25 cócteles ordenados alfabéticamente, y con nuestro buscador, podrán encontrar fácilmente su cóctel favorito y ver las instrucciones de preparación. ¡Les invito a visitarnos en Github para ver el proyecto en acción y a compartirlo con sus amigos y familiares!
+ En la página de inicio, podrán descubrir los primeros 25 cócteles ordenados alfabéticamente, y con nuestro buscador, podrán encontrar fácilmente su cóctel favorito y ver las instrucciones de preparación. ¡Les invito a visitarnos en Github para ver el proyecto en acción y a compartirlo con sus amigos y familiares!
 
 
 
