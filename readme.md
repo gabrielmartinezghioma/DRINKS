@@ -1,5 +1,15 @@
 ## Descripción  🇦🇷🇪🇸
 
+🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
+	It's a tool for cocktail and international drink lovers. 
+	
+	It uses the CocktailDB public API to collect and present a wide variety of options. 
+	
+	This project is an example of my ability to use the latest technologies in web development. I built it in React, specifically using useState, useEffect and custom hooks. I also implemented GET requests to get data from an API, demonstrating my ability to work with real-time data. This is just a sample of my skills and I'm excited to continue developing projects with innovative technologies.
+
+	On the homepage, you will discover the first 25 cocktails ordered alphabetically, and with the search bar, you will easily find your favorite cocktail and see the preparation instructions.
+
 🇪🇸
 	
 	Se trata de una herramienta para los amantes de los cócteles y bebidas internacionales.
@@ -10,15 +20,7 @@
 
 	En la página de inicio, podrán descubrir los primeros 25 cócteles ordenados alfabéticamente, y con el buscador, podrán encontrar fácilmente su cóctel favorito y ver las instrucciones de preparación.
 	
-🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
-	It's a tool for cocktail and international drink lovers. 
-	
-	It uses the CocktailDB public API to collect and present a wide variety of options. 
-	
-	This project is an example of my ability to use the latest technologies in web development. I built it in React, specifically using useState, useEffect and custom hooks. I also implemented GET requests to get data from an API, demonstrating my ability to work with real-time data. This is just a sample of my skills and I'm excited to continue developing projects with innovative technologies.
-
-	On the homepage, you will discover the first 25 cocktails ordered alphabetically, and with the search bar, you will easily find your favorite cocktail and see the preparation instructions.
  
 
 ## Autor 
