@@ -33,7 +33,7 @@
 ## Ver ejemplo en vivo
 
  [https://ghiomadrinks.netlify.app/](https://ghiomadrinks.netlify.app/)
-[Image text](https://github.com/gabrielmartinezghioma/ReactAcademloWoork2/blob/main/public/screen.png)
+![Image text](https://github.com/gabrielmartinezghioma/ReactAcademloWoork2/blob/main/public/screen.png)
 
 ## Instalacion 
 
