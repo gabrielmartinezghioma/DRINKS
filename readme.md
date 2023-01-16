@@ -1,26 +1,37 @@
 ## Descripción  🇦🇷🇪🇸
 
-  Me complace presentarles este proyecto. Se trata de una herramienta para los amantes de los cócteles y bebidas internacionales. Utiliza la API pública de CocktailDB para recopilar y presentar una amplia variedad de opciones. En este proyecto se han utilizado las últimas tecnologías como React, específicamente useState, useEffect y custom hooks para manejar el estado y efectos de la aplicación. Además, se realizaron peticiones GET para obtener los datos de la API.
+🇪🇸
+	
+	Se trata de una herramienta para los amantes de los cócteles y bebidas internacionales.
 
- En la página de inicio, podrán descubrir los primeros 25 cócteles ordenados alfabéticamente, y con nuestro buscador, podrán encontrar fácilmente su cóctel favorito y ver las instrucciones de preparación. ¡Les invito a visitarnos en Github para ver el proyecto en acción y a compartirlo con sus amigos y familiares!
+	Utiliza la API pública de CocktailDB para recopilar y presentar una amplia variedad de opciones.
 
+	Este proyecto es un ejemplo de mi capacidad de utilizar las últimas tecnologías en el desarrollo web. Lo construí en React, específicamente usando useState, useEffect y custom hooks. También he implementado peticiones GET para obtener los datos de una API, demostrando mi habilidad para trabajar con datos en tiempo real. Esta es solo una muestra de mis habilidades y estoy emocionado de seguir desarrollando proyectos con tecnologías innovadoras.
 
+	En la página de inicio, podrán descubrir los primeros 25 cócteles ordenados alfabéticamente, y con el buscador, podrán encontrar fácilmente su cóctel favorito y ver las instrucciones de preparación.
+	
+🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
-  I am excited to present my recently launched project on Github. It is a tool for cocktail and international drink enthusiasts that utilizes the CocktailDB public API to gather and present a wide variety of options. In this project, I have used the latest technologies such as React, specifically useState, useEffect, and custom hooks to handle the state and effects of the application. Additionally, I have made GET requests to retrieve data from the API.
+	It's a tool for cocktail and international drink lovers. 
+	
+	It uses the CocktailDB public API to collect and present a wide variety of options. 
+	
+	This project is an example of my ability to use the latest technologies in web development. I built it in React, specifically using useState, useEffect and custom hooks. I also implemented GET requests to get data from an API, demonstrating my ability to work with real-time data. This is just a sample of my skills and I'm excited to continue developing projects with innovative technologies.
 
-  On our homepage, you can discover the first 25 cocktails alphabetically sorted and with our search feature you can easily find your favorite cocktail and view its preparation instructions. I invite you to visit us on Github to see the project in action and share it with your friends and family.
+	On the homepage, you will discover the first 25 cocktails ordered alphabetically, and with the search bar, you will easily find your favorite cocktail and see the preparation instructions.
+ 
 
 ## Autor 
 
-	**GABRIEL ALEJANDRO MARTINEZ**
+**GABRIEL ALEJANDRO MARTINEZ**
 
-	*[Linkedin](https://www.linkedin.com/in/gabrielmartinezghioma/)
-	*[Portfolio](https://gabrielmartinezghioma.netlify.app/)
+[Linkedin](https://www.linkedin.com/in/gabrielmartinezghioma/)
+[Portfolio](https://gabrielmartinezghioma.netlify.app/)
 
 ## Ver ejemplo en vivo
 
-	- [https://ghiomadrinks.netlify.app/](https://ghiomadrinks.netlify.app/)
-![Image text](https://github.com/gabrielmartinezghioma/ReactAcademloWoork2/blob/main/public/screen.png)
+ [https://ghiomadrinks.netlify.app/](https://ghiomadrinks.netlify.app/)
+[Image text](https://github.com/gabrielmartinezghioma/ReactAcademloWoork2/blob/main/public/screen.png)
 
 ## Instalacion 
 
